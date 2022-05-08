@@ -6,7 +6,7 @@ section.first {
     background-repeat: space;
     background-image: url('002.svg');
     /* width: 100vw; */
-    min-height: 23vh;
+    min-height: 100vh;
     background-color: #0E0E0E;
 }
 
@@ -67,6 +67,12 @@ div#para {font-size: 1.2rem;text-align: left;
 h6 {color: #FFFFFF;text-align: left;margin-inline-start: 10.3rem;font-size: 1.9rem;}
 
 @media only screen and (max-width: 600px) {
+    h4#qw {
+        margin-inline-start: 1rem !important;
+    }
+    button {
+        float: left;
+    }
     div#para {
         margin-block-start: -3rem;
         margin-block-end: 15rem;
@@ -93,7 +99,7 @@ h6 {color: #FFFFFF;text-align: left;margin-inline-start: 10.3rem;font-size: 1.9r
     }
 
     h4 {
-        margin-inline-start: 1rem !important;
+        /* margin-inline-start: 1rem !important; */
     }
     div#para {
         margin-block-start: -3rem;
