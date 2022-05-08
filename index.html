@@ -85,7 +85,7 @@
         </div>
         <div id="text01">
           <div>
-            <h4 id="qw" style="text-align: left; margin-inline-start: 9rem">Engage</h4>
+            <h4 class="qw" style="text-align: left; margin-inline-start: 9rem">Engage</h4>
             <button>Self</button>
             <button>People</button>
             <button>Place</button>
@@ -106,7 +106,7 @@
       <div class="top000">
         <div id="text01">
           <div>
-            <h4 style="text-align: left; margin-inline-start: 9.8rem">
+            <h4 class="qw" style="text-align: left; margin-inline-start: 9.8rem">
               Enquire
             </h4>
             <h6></h6>
@@ -125,7 +125,7 @@
         </div>
       </div>
     </section>
-    <section class="qwerty0 dPsZaY">
+    <section id="change" class="qwerty0 dPsZaY">
       <div class="qwerty4 fpFnAT">
         <div style="opacity: 1" class="qwerty8 ijZHsr">
           <div class="qwerty2 cKSIpx">What did you connect to?</div>
@@ -184,6 +184,87 @@
     </section>
 
     <script>
+        function myFunction(x) {
+  if (x.matches) { // If media query matches
+    document.querySelector("#change").innerHTML=`
+   
+      
+        <div style="opacity: 1" class="qwerty8 ijZHsr">
+          <div class="qwerty2 cKSIpx">What did you connect to?</div>
+          <div class="qwerty6 dLWWCx">
+          <div class="qwerty7 dBUlCg">
+            <img src="101.svg" alt="" class="hZWWsa reveal fade-right" style="opacity: 1; transform: translate3d(0%, 0px, 0px);height: 95%;padding-top: 1.5rem;">
+          </div>
+        </div>
+          <div class="qwerty3 cAPXpg">
+            Leave a comment after a story, our AI handpicks comments of ‘original thinkers’ and highlight them for if you can think originally, you are our celebrity
+          </div>
+        </div>
+        <div style="opacity: 1" class="qwerty8 ijZHsr">
+          <div class="qwerty2 cKSIpx">Gift a Story</div>
+          <div class="qwerty6 dLWWCx">
+          <div class="qwerty7 dBUlCg">
+            <img src="102.svg" alt="" class="hZWWsa reveal fade-right" style="opacity: 1; transform: translate3d(0%, 0px, 0px);height: 95%;padding-top: 1.5rem;">
+          </div>
+        </div>
+          <div class="qwerty3 cAPXpg">
+            Branching-narrative stories with series of choices where the plot unfolds as per your decisions
+          </div>
+        </div>
+        <div style="opacity: 1" class="qwerty8 ijZHsr">
+          <div class="qwerty2 cKSIpx">Recommendation</div>
+          <div class="qwerty6 dLWWCx">
+          <div class="qwerty7 dBUlCg">
+            <img src="103.svg" alt="" class="hZWWsa reveal fade-right" style="opacity: 1; transform: translate3d(0%, 0px, 0px);height: 95%;padding-top: 1.5rem;">
+          </div>
+        </div>
+          <div class="qwerty3 cAPXpg">
+            Based on your decisions in the stories, you get recommendations of ‘the ones’ who can help you grow - mentors, friends, lovers.
+          </div>
+        </div>
+        <div style="opacity: 1" class="qwerty8 ijZHsr">
+          <div class="qwerty2 cKSIpx">What did you connect to?</div>
+          <div class="qwerty6 dLWWCx">
+          <div class="qwerty7 dBUlCg">
+            <img src="104.svg" alt="" class="hZWWsa reveal fade-right" style="opacity: 1; transform: translate3d(0%, 0px, 0px);height: 95%;padding-top: 1.5rem;">
+          </div>
+        </div>
+          <div class="qwerty3 cAPXpg">
+            Leave a comment after a story, our AI handpicks comments of ‘original thinkers’ and highlight them for if you can think originally, you are our celebrity
+          </div>
+        </div>
+        <div style="opacity: 1;" class="qwerty8 ijZHsr">
+            <div class="qwerty2 cKSIpx">Codopedia</div>
+            <div class="qwerty6 dLWWCx">
+          <div class="qwerty7 dBUlCg">
+            <img src="105.svg" alt="" class="hZWWsa reveal fade-right" style="opacity: 1; transform: translate3d(0%, 0px, 0px);height: 95%;padding-top: 1.5rem;">
+          </div>
+        </div>
+            <div class="qwerty3 cAPXpg">
+                High on curiosity after listening to a story? Explore trivia, facts, research, muse behind a story in the Codopedia section
+            </div>
+        </div>
+        <div style="opacity: 1" class="qwerty8 ijZHsr">
+            <div class="qwerty2 cKSIpx">CoDot AI</div>
+            <div class="qwerty6 dLWWCx">
+          <div class="qwerty7 dBUlCg">
+            <img src="106.svg" alt="" class="hZWWsa reveal fade-right" style="opacity: 1; transform: translate3d(0%, 0px, 0px);height: 95%;padding-top: 1.5rem;">
+          </div>
+        </div>
+            <div class="qwerty3 cAPXpg">
+                CoDot AI is a set of proprietary algorithms which understands you on the go and recommends you to meet new people who could turn into ‘the ones’. CoDot AI personally learns from you through the journey and keeps trying to better itself for you.
+            </div>
+        </div>
+        
+      </div> `;
+  } else {
+    document.body.style.backgroundColor = "pink";
+  }
+}
+
+var x = window.matchMedia("(max-width: 700px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
         function myGreeting(cx) {
             document.querySelector("body > section.qwerty0.dPsZaY > div.qwerty5.ffCCAC > div > div > img").classList.remove("active");
             //document.querySelector(cx).style.opacity="0";

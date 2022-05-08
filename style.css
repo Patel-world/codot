@@ -65,9 +65,25 @@ div#para {font-size: 1.2rem;text-align: left;
     color: #FFFFFF;}
 
 h6 {color: #FFFFFF;text-align: left;margin-inline-start: 10.3rem;font-size: 1.9rem;}
-
+@media screen and (max-width: 767px)
+{
+.dLWWCx {
+    margin-block-end: 4rem;float: left;width: 300px;
+    height: 510px;
+    position: relative;
+    top: 0px;
+margin-inline-start: -5rem;}
 @media only screen and (max-width: 600px) {
-    h4#qw {
+    .qwerty8.ijZHsr {
+        margin-top: -8rem;
+    }
+    .qwerty2.cKSIpx {
+        font-size: 2rem;
+        line-height: 2rem;
+    }section#change {
+        flex-direction: column;
+    }
+    .qw {
         margin-inline-start: 1rem !important;
     }
     button {
@@ -197,10 +213,10 @@ z-index: 101;}
 
 
 .dLWWCx {
-    position: sticky;
-    top: 180px;
-    width: 350px;
-    height: 600px;
+    /* position: sticky; */
+    /* top: 180px; */
+    /* width: 350px; */
+    /* height: 600px; */
     box-shadow: rgba(176, 176, 178, 0.16) 0px -5px 6px 0px inset, rgba(0, 0, 0, 0.24) 4px 6px 11px 1px inset;
     border-radius: 46px;
     padding: 16px 14px;
@@ -259,6 +275,6 @@ z-index: 101;}
   }
   
 
-.qwerty2.cKSIpx {margin-block-end: 4rem;line-height: 4rem;font-size: 4rem;font-weight: 600;}
+.qwerty2.cKSIpx {width: 14rem;margin-block-end: 4rem;line-height: 3rem;font-size: 2rem;font-weight: 600;margin-inline-start: -5rem;}
 
-.qwerty3.cAPXpg {font-family: 'Poppins';font-size: 1.5rem;font-weight: 300;}
+.qwerty3.cAPXpg {width: 15rem;font-family: 'Poppins';font-size: 1.5rem;font-weight: 300;position: relative;margin-block-end: 8rem;margin-inline-start: -4rem;}
